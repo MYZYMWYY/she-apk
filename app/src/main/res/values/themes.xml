@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 全屏 + 粉色状态栏（主题色 #ff8fa3，与 PWA 一致） -->
+    <style name="Theme.She" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FF8FA3</item>
+        <item name="colorPrimaryDark">#FF8FA3</item>
+        <item name="colorAccent">#FF8FA3</item>
+        <item name="android:statusBarColor">#FF8FA3</item>
+        <item name="android:windowBackground">#FFF5F6</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+    </style>
+</resources>

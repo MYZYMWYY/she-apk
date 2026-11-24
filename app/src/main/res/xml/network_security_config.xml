@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 放行明文 HTTP：PWA 走 http:// 的 Tailscale 域名，Android 9+ 默认禁止明文 -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

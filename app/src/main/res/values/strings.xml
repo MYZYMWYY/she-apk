@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">她</string>
+    <string name="settings_title">设置服务器地址</string>
+    <string name="settings_hint">输入 PWA 地址，例如 http://desktop-j4flem2.tailae05bb.ts.net:8080</string>
+    <string name="settings_save">保存并重新加载</string>
+    <string name="settings_cancel">取消</string>
+    <string name="settings_reset">恢复默认地址</string>
+    <string name="settings_tip">提示：在页面顶部长按 3 秒可随时打开此设置</string>
+</resources>
