@@ -94,7 +94,7 @@ class MainActivity : AppCompatActivity() {
             loadWithOverviewMode = true
             mixedContentMode = WebSettings.MIXED_CONTENT_ALWAYS_ALLOW  // http 页面里加载资源
             mediaPlaybackRequiresUserGesture = false                  // 语音/音频可自动播
-            setAppCacheEnabled(false)
+            // 注：setAppCacheEnabled 已在新版 Android 移除，无需调用；下面一行即可保证前端更新即时生效
             cacheMode = WebSettings.LOAD_NO_CACHE                     // 页面走网络，保证前端更新即时生效
         }
 
@@ -188,7 +188,7 @@ class MainActivity : AppCompatActivity() {
         val input = EditText(this).apply {
             setText(getPrefs().getString(KEY_URL, START_URL) ?: START_URL)
             hint = getString(R.string.settings_hint)
-            singleLine = true
+            isSingleLine = true
             setPadding(48, 24, 48, 24)
         }
         AlertDialog.Builder(this)
